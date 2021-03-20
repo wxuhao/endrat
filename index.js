@@ -1,4 +1,5 @@
 const config = require('./config.json');
+const secrets = require('./secrets.json');
 const {
     Client,
     Attachment
@@ -7,7 +8,7 @@ var cron = require('node-cron');
 
 const bot = new Client();
 
-bot.login(config.token);
+bot.login(secrets.token);
 
 bot.once('ready', () => {
 	console.log('Ready!');
@@ -27,6 +28,7 @@ bot.on('message', message => {
 
 	switch(command) {
         case config.rat_end_message:
+            // Find all the channels, filter out the voice ones, and recreate the channels again
             const fetchedChannel = message.guild.channels.cache.get('822725706738827284');
             console.log(fetchedChannel);
             fetchedChannel.delete();
