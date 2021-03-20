@@ -1,0 +1,11 @@
+{
+	"prefix": "!",
+	"token": "ODIxOTI3MDY3OTI2MDAzODAy.YFK1Ow.sg2VBA6pFXlLeAW1urLsTqwp1pg",
+	"meaning_of_life": 42,
+	"passwords_array": ["please", "dont", "hack", "me"],
+	"secret_passcodes": {
+		"bank": 1234,
+		"home": 4321
+	},
+    "rat_end_message" : "Rat has now ended. Goodbye."
+}
