@@ -1,12 +1,3 @@
 {
-	"prefix": "!",
-	"meaning_of_life": 42,
-	"passwords_array": ["please", "dont", "hack", "me"],
-    "secret_passcodes": {
-		"bank": 1234,
-		"home": 4321
-	},
-    "rat_end_message" : "Rat has now ended. Goodbye.",
-    "weekday_rat_channels": ["weekday rat 1", "weekday rat 2", "weekday rat 3", "matt fan club", "deoty is ed"],
-    "cron_job": "0 10 19 * * SUN,MON,TUE,WED,THU"
+	"role": "10pm bedtime"
 }

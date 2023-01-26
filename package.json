@@ -1,0 +1,23 @@
+{
+  "name": "endrat",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxuhao/endrat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxuhao/endrat/issues"
+  },
+  "homepage": "https://github.com/wxuhao/endrat#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "node-cron": "^3.0.2"
+  }
+}
